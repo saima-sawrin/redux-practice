@@ -10,6 +10,7 @@ import Child from './components/Pages/Child';
 import Bar from './components/NivoBar/Bar';
 import NivoBar from './components/NivoBar/NivoBar';
 import Counter from './components/Pages/Counter';
+import Form from './components/Pages/Form';
 
 
 
@@ -18,6 +19,10 @@ function App() {
     {
       path: '/',
       element:<Counter></Counter>
+    },
+    {
+      path: '/form',
+      element:<Form></Form>
     },
     
     {
